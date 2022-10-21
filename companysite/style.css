@@ -1,0 +1,83 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+
+}
+
+.outer{
+   text-align: center;
+   padding: 20px;
+}
+
+.page{
+   max-width: 1200px;
+   height: 95vh;
+   margin-top: 10px;
+   display: inline-block;
+   text-align: left;
+   padding: 10px;
+   background-color: white;
+}
+
+.topofpage{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+.logo{
+  max-width: 200px;
+  text-align: left;
+}
+
+.logo_img{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 70%;
+}
+
+.navbar{
+  flex-grow: 1;
+  vertical-align: bottom;
+}
+
+.navhere{
+
+}
+
+.search{
+  align-content: flex-end;
+  max-width: 100px;
+  margin-left: auto;
+}
+
+.search_img{
+  width: 50%;
+}
+
+a{
+  color: #007acc;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+a:active {
+  color: #1e265e;
+}
+
+.content{
+  background-color: #f0f0f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
