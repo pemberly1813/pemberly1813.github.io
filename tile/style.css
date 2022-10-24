@@ -1,0 +1,144 @@
+body{
+	margin:0;
+	padding:0;
+  background-color: #fff;
+	font-family: Montserrat, sans-serif;
+  font-weight: 500;
+
+}
+
+.outer{
+  text-align: center;
+}
+
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color: #FFF;
+  max-width:1200px;
+  width:100%;
+	height: 99vh;
+	display: inline-block;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #000;
+	opacity: .6;
+
+}
+
+.topofpage{
+		display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+		height: 100px;
+
+}
+
+.navbar{
+  position: sticky;
+	position: -webkit-sticky; /* Safari */
+	top:0;
+	width: 100%;
+	height: 100px;
+	z-index: 100;
+  background-color: skyblue;
+
+}
+
+.nav{
+   margin-left: 20px;
+   margin-top: 10px;
+   text-align: center;
+   flex-grow: 1;
+
+}
+
+
+.navhere{
+	color: #1e265e;
+}
+
+.logo{
+  max-width: 100px;
+
+}
+
+.logo_img{
+  margin-top: 0;
+  width: 50%;
+}
+
+.search{
+	align-content: flex-end;
+  max-width: 100px;
+  margin-left: auto;
+
+}
+
+.search_img{
+	margin-top: 10px;
+  margin-left: 10px;
+	width: 50%;
+}
+
+.content{
+	height: 40px;
+	font-size: 26px;
+	color: #1e265e;
+	background-color: #skyblue;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.nav a{
+  color: #007acc;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.nav a:active {
+  color: #1e265e;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+
+}
+
+.tilebg1{
+	background-image: url("img/cooking-basics.jpg");
+
+}
+
+.tilebg2{
+	background-image: url("img/recipes.jpg");
+
+}
+
+.tilebg3{
+		background-image: url("img/meal-planning.jpg");
+
+}
+
+.tilebg4{
+		background-image: url("img/special-diets.jpg");
+
+}
+
+.tilebg5{
+		background-image: url("img/kids-cooking.jpg");
+
+}
+
+.tilebg6{
+		background-image: url("img/holiday-treats.jpg");
+
+}
