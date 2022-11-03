@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+     .my_filter{
+
+      -webkit-filter: hue-rotate(0) brightness(1);
+      filter: hue-rotate(0) brightness(1);
+
+
+
+     }
+
+
+
+
+
+    .my_filter:hover{
+
+      animation: 3s myfilteranimation forwards;
+
+    }
+
+
+
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: hue-rotate(-0.25turn) brightness(1.75);
+	        filter: hue-rotate(-0.25turn) brightness(1.75);
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+
+<img class="my_filter" src="img/water-lilies.jpg" alt="water lilies">
+
+</body>
+</html>
