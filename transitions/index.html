@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+
+
+   <style>
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:#FFF;
+   	}
+
+   	.cardholder{
+        text-align: center;
+   	}
+
+    .card{
+    	position: relative;
+       background-color:black;
+       display: inline-block;
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+			-webkit-filter: hue-rotate(1);
+			filter: hue-rotate(1);
+			transition: 1s -webkit-filter ease;
+
+    }
+
+		.card:hover img{
+		 		-webkit-filter: hue-rotate(-0.25turn);
+		 		filter: hue-rotate(-0.25turn);
+
+    }
+
+    .center {
+     padding: 25% 0;
+     text-align: center;
+    }
+
+    .card_overlay{
+    	position:absolute;
+    	background-color: black;
+    	width:100%;
+    	height:100%;
+    	transition: .4s ease;
+
+    }
+
+    .card:hover .card_overlay{
+    	opacity: 0;
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+   </style>
+
+</head>
+<body>
+
+	<div class="cardholder">
+       <div class="card">
+       	 <div class="card_overlay"><p class="center">TRICK-OR-TREAT!</p></div>
+       	  <img src="img/jack-o-lantern.jpg" alt="jack-o-lantern">
+       </div>
+	</div>
+
+</body>
+</html>
